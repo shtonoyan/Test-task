@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All" duration-ms="22702" started-at="2022-09-29T17:05:49 AMT" finished-at="2022-09-29T17:06:12 AMT">
+  <suite name="All" duration-ms="27194" started-at="2022-09-29T23:53:17 AMT" finished-at="2022-09-29T23:53:44 AMT">
     <groups>
     </groups>
-    <test name="api" duration-ms="10019" started-at="2022-09-29T17:05:49 AMT" finished-at="2022-09-29T17:05:59 AMT">
+    <test name="api" duration-ms="8213" started-at="2022-09-29T23:53:17 AMT" finished-at="2022-09-29T23:53:25 AMT">
       <class name="api.ApiTestCase">
-        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:api.ApiTestCase@80503]" name="setBaseUri" is-config="true" duration-ms="304" started-at="2022-09-29T17:05:49 AMT" finished-at="2022-09-29T17:05:49 AMT">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:api.ApiTestCase@80503]" name="setBaseUri" is-config="true" duration-ms="681" started-at="2022-09-29T23:53:17 AMT" finished-at="2022-09-29T23:53:18 AMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseUri -->
-        <test-method status="FAIL" signature="apiUseCase()[pri:0, instance:api.ApiTestCase@80503]" name="apiUseCase" duration-ms="9685" started-at="2022-09-29T17:05:49 AMT" finished-at="2022-09-29T17:05:59 AMT">
+        <test-method status="FAIL" signature="apiUseCase()[pri:0, instance:api.ApiTestCase@80503]" name="apiUseCase" duration-ms="7471" started-at="2022-09-29T23:53:18 AMT" finished-at="2022-09-29T23:53:25 AMT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[This Pilot is not among the starships' pilots... expected [true] but found [false]]]>
@@ -21,7 +21,7 @@
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
-at api.ApiTestCase.apiUseCase(ApiTestCase.java:30)
+at api.ApiTestCase.apiUseCase(ApiTestCase.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -62,17 +62,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
         </test-method> <!-- apiUseCase -->
       </class> <!-- api.ApiTestCase -->
     </test> <!-- api -->
-    <test name="gui" duration-ms="12667" started-at="2022-09-29T17:05:59 AMT" finished-at="2022-09-29T17:06:12 AMT">
+    <test name="gui" duration-ms="18954" started-at="2022-09-29T23:53:25 AMT" finished-at="2022-09-29T23:53:44 AMT">
       <class name="gui.GuiTestCase">
-        <test-method status="PASS" signature="browserSetup()[pri:0, instance:gui.GuiTestCase@60285225]" name="browserSetup" is-config="true" duration-ms="1652" started-at="2022-09-29T17:05:59 AMT" finished-at="2022-09-29T17:06:01 AMT">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:gui.GuiTestCase@60285225]" name="browserSetup" is-config="true" duration-ms="4312" started-at="2022-09-29T23:53:25 AMT" finished-at="2022-09-29T23:53:29 AMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method status="PASS" signature="useCaseTest()[pri:0, instance:gui.GuiTestCase@60285225]" name="useCaseTest" duration-ms="10346" started-at="2022-09-29T17:06:01 AMT" finished-at="2022-09-29T17:06:11 AMT">
+        <test-method status="PASS" signature="useCaseTest()[pri:0, instance:gui.GuiTestCase@60285225]" name="useCaseTest" duration-ms="13890" started-at="2022-09-29T23:53:29 AMT" finished-at="2022-09-29T23:53:43 AMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- useCaseTest -->
-        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:gui.GuiTestCase@60285225]" name="browserTearDown" is-config="true" duration-ms="667" started-at="2022-09-29T17:06:11 AMT" finished-at="2022-09-29T17:06:12 AMT">
+        <test-method status="PASS" signature="browserTearDown()[pri:0, instance:gui.GuiTestCase@60285225]" name="browserTearDown" is-config="true" duration-ms="749" started-at="2022-09-29T23:53:43 AMT" finished-at="2022-09-29T23:53:44 AMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTearDown -->

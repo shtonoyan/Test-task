@@ -1,0 +1,19 @@
+
+_
+/src/main/java/api/apiobjects/FilmApiObject.java,4\3\4349985187cbcd71cf620862d4e9d7bf467a13ea
+a
+1src/main/java/api/apiobjects/PeopleApiObject.java,c\0\c02da9440a8b45b28f399eb61e6aa13cabcc5f42
+c
+3src/main/java/api/apiobjects/StarshipApiObject.java,0\1\01d4edd475d9d48c4dc80182416e506387e9a072
+S
+#src/main/java/api/RequestUtils.java,f\2\f273fbbd47a08f9a17922900b3d639f4722266c8
+T
+$src/main/java/api/ResponseUtils.java,d\a\dabb1160399dfa14f219ef9b9892e834f20caa0b
+S
+#src/main/java/gui/core/Actions.java,3\a\3a3c785edc1f07d27af731b682c3935ce7a9bf02
+P
+ src/main/java/gui/core/Wait.java,3\6\369dbef097f96b84886773749586f70868d1458b
+Q
+!src/main/java/gui/core/Utils.java,9\9\992de29a056bc5cae8554f6ff5d668772629bad0
+Z
+*src/main/java/gui/core/TestDataReader.java,f\e\fe26940fb0c472928e11866fa1b0026e36a173b6
